@@ -41,9 +41,7 @@
 						<td>${tmpCustomer.firstName}</td>
 						<td>${tmpCustomer.lastName}</td>
 						<td>${tmpCustomer.email}</td>
-						<td><a href="${updateLink}">Update</a>
-						| 
-						<a href="${deleteLink}">Delete</a></td>
+						<td><a href="${updateLink}">Update</a> | <a href="${deleteLink}">Delete</a></td>
 					</tr>
 				</c:forEach>
 			</table>
